@@ -1,0 +1,102 @@
+html{
+    cursor: url('cursor (1).png'), pointer;
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    height: 300px;
+}
+.middle{
+    text-align: center;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 132, 255);
+}
+
+button{
+    cursor: url('cursor (1).png'), pointer;
+    border: none;
+    height: 75px;
+    width: 300px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    border-radius: 20px;
+    color: white;
+}
+
+button:focus { outline: none; }
+
+#nixonbutton{
+    background: red;
+    border-bottom: 10px solid rgb(177, 2, 2);
+    margin-bottom: 1rem;
+}
+
+#nixonbutton:active{
+    background:rgb(177, 2, 2);
+    position: relative;
+    top: 5px;
+}
+#mcgovernbutton{
+    background: blue;
+    border-bottom: 10px solid rgb(0, 0, 160);
+    margin-bottom: 1rem;
+}
+
+#mcgovernbutton:active{
+    background: rgb(0, 0, 160);
+    position: relative;
+    top: 5px;
+}
+
+#submitButton{
+    background: rgb(73, 73, 73);
+    border-bottom: 10px solid rgb(31, 31, 31);
+    margin-bottom: none;
+    
+}
+
+#submitButton a{
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor (1).png'), pointer;
+}
+
+#submitButton:active{
+    background: rgb(31, 31, 31);
+    position: relative;
+    top: 5px;
+}
+
+#reload{
+    background: rgb(73, 73, 73);
+    border-bottom: 10px solid rgb(31, 31, 31);
+    margin-bottom: none;
+    
+}
+
+#reload a{
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor (1).png'), pointer;
+}
+
+#reload:active{
+    background: rgb(31, 31, 31);
+    position: relative;
+    top: 5px;
+}
+
+.nixonleft{
+    opacity: 0;
+    transition: all 10s;
+}
+
+.nixonright{
+    opacity: 0;
+    transition: all 10s;
+}
